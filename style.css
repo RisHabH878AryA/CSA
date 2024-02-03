@@ -1,0 +1,50 @@
+body {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease-in-out;
+}
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+#Heading {
+    text-align-last: center;
+    color: #2c3e50; 
+    background-color: #3498db; 
+    padding: 1rem;
+}
+
+.Tab {
+    padding-left: 1rem;
+    color: #333; 
+
+}
+
+.box {
+    background-color: #ecf0f1; 
+    display: flex;
+    width: 20rem;
+    border: 2px solid #3498db; 
+    margin: 1rem; 
+}
+
+#first, #second, #third {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+
+.box:hover{
+    background-color: aquamarine;
+}
+
+#btn 
+{
+    color: white;
+    background-color:black;
+    border-radius: 1rem;
+}
+
+#btn:hover{
+    cursor : pointer;
+}
